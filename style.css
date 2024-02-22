@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container-enquete {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.enquete-titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.enquete-pergunta {
+  margin-bottom: 20px;
+}
+
+/* Adicionando a barra fina e branca entre cada pergunta */
+.barra-separadora {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
+}
+
+.enquete-pergunta p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

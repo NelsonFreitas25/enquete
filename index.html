@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Enquete sobre o Plano Diretor Estratégico da Cidade de São Paulo</title>
+</head>
+
+<body>
+  <div class="enquete-titulo">
+    <h2><strong>Sobre o Plano Diretor Estratégico da Cidade de São Paulo</strong></h2>
+  </div>
+
+  <form method="post" action="https://planodiretorsp.prefeitura.sp.gov.br/enquete-antiga/" enctype="multipart/form-data" class="form-enquete">
+    <div class="container-enquete">
+      <div class="enquete-pergunta">
+        <p>Você sabe o que é o Plano Diretor Estratégico?</p>
+        <input type="radio" id="a1" name="resposta1" value="Sim">
+        <label for="a1">Sim</label>
+        <input type="radio" id="a2" name="resposta1" value="Não">
+        <label for="a2">Não</label>
+      </div>
+      <div class="barra-separadora"></div>
+      <div class="enquete-pergunta">
+        <p>Você participou do processo participativo do Plano Diretor em 2014?</p>
+        <input type="radio" id="b1" name="resposta2" value="Sim">
+        <label for="b1">Sim</label>
+        <input type="radio" id="b2" name="resposta2" value="Não">
+        <label for="b2">Não</label>
+      </div>
+      <div class="barra-separadora"></div>
+      <div class="enquete-pergunta">
+        <p>Você acompanha e se interessa sobre as discussões de desenvolvimento urbano da cidade?</p>
+        <input type="radio" id="c1" name="resposta3" value="Sim">
+        <label for="c1">Sim</label>
+        <input type="radio" id="c2" name="resposta3" value="Não">
+        <label for="c2">Não</label>
+      </div>
+      <div class="barra-separadora"></div>
+      <div class="enquete-pergunta">
+        <p>Se pudesse escolher, você moraria perto de:</p>
+        <div>
+          <input type="checkbox" id="d1" name="moradia[]" value="Emprego">
+          <label for="d1">Emprego</label>
+        </div>
+        <div class="barra-separadora"></div>
+        <div>
+          <input type="checkbox" id="d2" name="moradia[]" value="Transporte">
+          <label for="d2">Transporte (metrô, trem e terminal de ônibus)</label>
+        </div>
+       
+        <div>
+          <input type="checkbox" id="d3" name="moradia[]" value="Escola">
+          <label for="d3">Escola</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" id="d4" name="moradia[]" value="Unidade de saúde">
+          <label for="d4">Unidade de saúde</label>
+        </div>
+        <div>
+          <input type="checkbox" id="d5" name="moradia[]" value="Parque ou praça">
+          <label for="d5">Parque ou praça</label>
+        </div>
+        <div>
+          <input type="checkbox" id="d6" name="moradia[]" value="Outro">
+          <label for="d6">Outro</label>
+          <input type="text" id="r4_outro" name="moradia_outro">
+        </div>
+      </div>
+    </div>
+    <button type="submit">Enviar Respostas</button>
+  </form>
+</body>
+
+</html>
