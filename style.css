@@ -1,27 +1,109 @@
-*{
-  font-family: sans-serif;
+
+
+
+
+* {
+  font-family: 'poppins', serif;
   margin: 0;
   padding: 0;
 }
-.container-enquete{
+
+.container-enquete {
   margin: 0 auto;
- max-width: 1200px;
-  background-color: rgb(213, 224, 224);
+  max-width: 1200px;
+  background-color: #f2f2f2;
+
 }
-.enquete-titulo{
+
+.enquete-titulo {
+  display:flex;
   background-color: black;
-  color:#fff;
-  padding:60px 40px;
+  color: #fff;
+  padding: 60px 40px;
 }
-.enquete-pergunta{
-  padding:0 40px;
+
+.enquete-pergunta {
+  padding: 0 40px;
+  margin-top: 44px;
 }
-h2{
-  font-size: 2.5em !important;
+
+h2 {
+  font-size: 1.5em !important;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
 
 }
-.quest-1{
-  display:block;
+
+.quest-1 {
+  display: block;
   gap: 90px;
+  
 
+}
+
+input[type=radio] {
+  border: 0px;
+  width: 20px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.line {
+  height: 6px;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  content: "";
+  margin: 30px 0;
+  border-radius: 3px;
+}
+
+#r4_outro {
+  width: 80%;
+  display: inline;
+  background: none;
+  border: none;
+  border-bottom: 0.2px solid;
+  height: 25px;
+  font-size: 20px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.enquete-dados .campo-dados {
+  background-color: #fff;
+  padding: 8px 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.button-enquete {
+  margin: 50px 0 50px 0;
+}
+
+
+.button-chamamento,
+.button-enquete {
+  border-radius: 10rem !important;
+  background-color: #0a3299;
+  color: white;
+  font-weight: bold;
+  font-family: arial !important;
+  font-size: 20px;
+  min-width: 280px;
+  height: 60px;
+  padding: 1rem 4rem;
+  margin-bottom: 60px;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input {
+  overflow: visible;
 }
