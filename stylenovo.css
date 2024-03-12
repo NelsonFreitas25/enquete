@@ -1,29 +1,29 @@
-
-
-
-
 * {
   font-family: 'poppins', serif;
   margin: 0;
   padding: 0;
 }
+.wrapper{
+  width: 1120px;
+  margin: 0 auto;
+}
 
 .container-enquete {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1300px;
   background-color: #f2f2f2;
 
 }
 
 .enquete-titulo {
-  display:flex;
+  display: flex;
   background-color: black;
   color: #fff;
-  padding: 60px 40px;
+  padding: 60px 0 0 70px;
 }
 
 .enquete-pergunta {
-  padding: 0 40px;
+  padding: 0 70px;
   margin-top: 44px;
 }
 
@@ -37,7 +37,7 @@ h2 {
 .quest-1 {
   display: block;
   gap: 90px;
-  
+
 
 }
 
@@ -70,13 +70,17 @@ input[type=radio] {
   margin-left: 5px;
 }
 
-.enquete-dados .campo-dados {
+.enquete-pergunta .campo-dados {
   background-color: #fff;
   padding: 8px 25px;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
 
+}
+ select{
+  display:inline-block;
+  margin-right: 20px;
 }
 
 .button-enquete {
@@ -106,4 +110,29 @@ select {
 button,
 input {
   overflow: visible;
+}
+.separador-conteudo{
+  display: flex;
+  margin-right: -15px;
+    margin-left: -15px;
+}
+.conteudo{
+  width: 50%;
+  padding: 20px;
+}
+.outro{
+  padding-left: 5px;
+}
+input[type=text], input[type=email]{
+  border: 0px;
+  width: 600px;
+}
+select{
+  display: inline-block;
+  margin-left: 10px;
+}
+#d1{
+  width: 20px;
+  height:20px;
+
 }
