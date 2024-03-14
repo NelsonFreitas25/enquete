@@ -87,7 +87,7 @@ if (isset($_POST["button-enviar"])){
         <div class="conteudo">
           <div class="">
             <div class=""><input type="radio" id="f1"  name="tempo" value="Não penso em hipótese alguma deixar o bairro onde moro">
-             name="tempo" <label for="f1">Não penso em hipótese alguma deixar o bairro onde moro</label>
+             <label for="f1">Não penso em hipótese alguma deixar o bairro onde moro</label>
             </div>
           </div>
           <div class="">
@@ -148,26 +148,26 @@ if (isset($_POST["button-enviar"])){
       <div class="separador-conteudo">
         <div class="conteudo">
           <div class="quest-1">
-            <input type="checkbox" id="d1" name="check" value="a_Emprego"> <label for="d1">Emprego</label>
+            <input type="checkbox" id="d1" name="tempo" value="a_Emprego"> <label for="d1">Emprego</label>
           </div>
-          <div class=""><input type="checkbox" id="d1" name="check" value="b_Transporte"> <label for="d2">Transporte (metrô,
+          <div class=""><input type="checkbox" id="d1" name="tempo" value="b_Transporte"> <label for="d2">Transporte (metrô,
               trem e terminal de ônibus)</label></div>
 
-          <div class=""><input type="checkbox" id="d1"  name="check" value="c_Escola"> <label for="d3">Escola</label></div>
+          <div class=""><input type="checkbox" id="d1"  name="tempo" value="c_Escola"> <label for="d3">Escola</label></div>
         </div>
         <div class="conteudo">
-          <div class=""><input type="checkbox" id="d1" name="check" value="d_Unidade de saúde"> <label for="d4">Unidade de
+          <div class=""><input type="checkbox" id="d1" name="tempo" value="d_Unidade de saúde"> <label for="d4">Unidade de
               saúde</label></div>
-          <input type="checkbox" id="d1" name="check" value="e_Parque ou praça"> <label for="d5">Parque ou praça</label> <br>
+          <input type="checkbox" id="d1" name="tempo" value="e_Parque ou praça"> <label for="d5">Parque ou praça</label> <br>
         </div>
 
       </div>
       <div class="outro">
-        <input type="checkbox" id="d1" name="check"  value="f_Outro"> <label for="d6">Outro</label> <input type="text" id="r4_outro"
+        <input type="checkbox" id="d1" name="tempo"  value="f_Outro"> <label for="d6">Outro</label> <input type="text" id="r4_outro"
           value=""><br>
       </div>
       <div class="line"></div>
-    </div>
+    </div> ª
     <div class="enquete-pergunta">
       <h2>Você acompanha e se interessa sobre as discussões de desenvolvimento urbano da cidade?</h2>
       <div><input type="radio" id="c1" name="tempo" value="Sim"> <label for="c1">Sim</label> <br> <input type="radio" id="c2"

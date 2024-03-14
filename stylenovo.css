@@ -136,3 +136,12 @@ select{
   height:20px;
 
 }
+div{
+  margin-bottom: 20px;
+  
+}
+.enquete-pergunta label {
+  font-size: 1.0em;
+  font-weight: 300;
+  line-height: 1.1em;
+}
